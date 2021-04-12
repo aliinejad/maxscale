@@ -1,8 +1,6 @@
 # maxscale-helmChart
 
-This Helm Chart  runs  MariaDB MaxScale for mariadb replication cluster 
-
-
+This Helm Chart  runs  MariaDB MaxScale for mariadb replication cluster with readwrite splite and auto failover option 
 
 
 
