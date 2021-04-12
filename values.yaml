@@ -3,9 +3,9 @@
 # Declare variables to be passed into your templates.
 
 replicaCount: 1
-maxscale_server1: master
-maxscale_server2: slave1
-maxscale_server3: slave2
+server1: master
+server2: slave1
+server3: slave2
 
 image:
   repository: mariadb/maxscale
