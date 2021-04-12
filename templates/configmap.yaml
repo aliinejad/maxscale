@@ -6,19 +6,19 @@ data:
   maxscale.conf: |
     [server1]
     type=server
-    address={{ .Values.server1 }}
+    address={{ .Values.db1 }}
     port=3306
     protocol=MariaDBBackend
 
     [server2]
     type=server
-    address={{ .Values.server2 }}
+    address={{ .Values.db2 }}
     port=3306
     protocol=MariaDBBackend
 
     [server3]
     type=server
-    address={{ .Values.server3 }}
+    address={{ .Values.db3 }}
     port=3306
     protocol=MariaDBBackend
 
