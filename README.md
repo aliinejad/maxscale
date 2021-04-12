@@ -1,6 +1,8 @@
 # maxscale-helmChart
 
-maxscale helm chart for mariadb replication 
+This Helm Chart  runs  MariaDB MaxScale for mariadb replication cluster 
+
+
 
 
 
