@@ -5,13 +5,13 @@
 replicaCount: 1
 server1: 
   db: master
-  port: 3306
+  dbport: 3306
 server2:
   db: slave1
-  port: 3306
+  dbport: 3306
 server3:
   db: slave2
-  port: 3306
+  dbport: 3306
 
 serviceUser: maxuser
 servicePassword: maxpwd

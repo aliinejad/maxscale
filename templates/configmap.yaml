@@ -7,19 +7,19 @@ data:
     [server1]
     type=server
     address={{ .Values.server1.db }}
-    port={{ .Values.server1.port }}
+    port={{ .Values.server1.dbport }}
     protocol=MariaDBBackend
 
     [server2]
     type=server
     address={{ .Values.server2.db }}
-    port={{ .Values.server2.port }}
+    port={{ .Values.server2.dbport }}
     protocol=MariaDBBackend
 
     [server3]
     type=server
     address={{ .Values.server3.db }}
-    port={{ .Values.server3.port }}
+    port={{ .Values.server3.dbport }}
     protocol=MariaDBBackend
 
     # Monitor for the servers

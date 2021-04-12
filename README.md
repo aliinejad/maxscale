@@ -8,12 +8,15 @@ This Helm Chart  runs  MariaDB MaxScale for mariadb replication cluster
 
 | Parameter                 | Description                                     | Default                                                 |
 |---------------------------|--------------------------------------------------------|--------------------------------------------------|
-| ` db1 `                   | IP or Hostname of the first cluster node               | `master`                                         |
-| ` db2 `                   | IP or Hostname of the 2nd cluster node                 | `slave1`                                         |
-| ` db3 `                   | IP or Hostname of the 3rd cluster node                 | `slave2`                                         |
-| ` port1   `               |       readwrite service port                           | `4006`                                           |
-| ` port2   `               |       readonly service port                            | `4008`                                           |
-| ` port3   `               |       REST API service port                            | `8989`                                           |
+| ` server1.db `            | IP or Hostname of the first cluster node               | `master`                                         |
+| ` server2.db `            | IP or Hostname of the 2nd cluster node                 | `slave1`                                         |
+| ` server3.db `            | IP or Hostname of the 3rd cluster node                 | `slave2`                                         |
+| ` server1.dbport `        | port of the first database node                        | `3306`                                           |
+| ` server2.dbport `        | port the second database node                          | `3306`                                           |
+| ` server3.dbport `        | port of the third database node                        | `3306`                                           |
+| ` service.port1   `       |       readwrite maxscale service port                  | `4006`                                           |
+| ` service.port2           |       readonly maxscale service port                   | `4008`                                           |
+| ` service.port3   `       |       REST API maxescale service port                  | `8989`                                           |
 | ` serviceUser   `         |       MaxScale service user name                       | `maxuser`                                        |
 | ` servicePassword   `     |       MaxScale service user password                   | `maxpwd`                                         |
 | ` monitorUser   `         |       MaxScale monitor user name                       | `maxuser`                                        |
