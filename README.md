@@ -6,11 +6,11 @@ maxscale helm chart for mariadb replication
 
 | Parameter                 | Description                                     | Default                                                 |
 |---------------------------|--------------------------------------------------------|--------------------------------------------------|
-| ` server1 `               | server1 address                                        | `master`                                         |
-| ` server2 `               | server2 address                                        | `slave1`                                         |
-| ` server3 `               | server3 address                                        | `slave2`                                         |
-| ` port1   `               |       readwrite port                                   | `4006`                                           |
-| ` port2   `               |       readonly port                                    | `4008`                                           |
-| ` port3   `               |       REST API port                                    | `4008`                                           |
+| ` server1 `               | IP or Hostname of the first cluster node               | `master`                                         |
+| ` server2 `               | IP or Hostname of the 2nd cluster node              | `slave1`                                         |
+| ` server3 `               | IP or Hostname of the 3rd cluster node               | `slave2`                                         |
+| ` port1   `               |       readwrite service port                           | `4006`                                           |
+| ` port2   `               |       readonly service port                            | `4008`                                           |
+| ` port3   `               |       REST API service port                            | `4008`                                           |
 
 
